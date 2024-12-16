@@ -1,0 +1,117 @@
+.owl-nav {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+}
+.owl-dots {
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.owl-prev, .owl-next {
+    height: 50px;
+    width: 50px;
+	position: relative;
+	background: none;
+}
+
+.owl-nav span:hover {
+background: #fff !important;
+color: #333;
+}
+.owl-nav span {
+    color: #fff;
+    font-size: 40px;
+    line-height: 1.1;
+    font: none;
+    transition: all 0.4s ease;
+    width: 100%;
+    display: block;
+	height: 100%;
+	background: #566d7a !important;
+    position: absolute;
+    top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	border-radius: 50% !important;
+    transition: all 0.4s ease;
+    box-shadow: 0px 4px 6px 0px #3333334d;
+}
+.before ul {
+    list-style: none;
+    margin: 0 !important;
+    padding: 0;
+}
+.images p {
+    text-align: center;
+    font-size: 40px;
+    font-family: inherit;
+    position: absolute;
+    left: 0;
+    color: #fff;
+    padding: 20px;
+    background: #333;
+    margin: 0;
+    top: 0;
+    text-transform: uppercase;
+}
+.images {
+    position: relative;
+}
+.before li {
+    display: flex;
+    flex-wrap: wrap;
+}
+.before .images {
+    flex-basis: 80%;
+    /* flex-basis: 100% - if you want to have it vertical aligned */
+}
+.before .description {
+    flex-basis: 100%;
+    text-align: center;
+    font-size: 22px;
+    background: #566d7a17;
+    font-family: inherit;
+}
+.owl-thumbs {
+    display: flex;
+    justify-content: center;
+}
+.owl-thumb-item img {
+    width: 100%;
+    height: auto;
+
+}
+.owl-thumb-item {
+    width: 200px;
+}
+.owl-thumbs button {
+    background: none;
+    border: none;
+}
+.owl-thumb-item.active {
+    padding: 0;
+    transition: padding 0.4s ease;
+    box-shadow: 1px 2px 20px #2225;
+}
+
+@media (max-width: 767px) {
+    .before .images {
+        flex-basis: 100%;
+        /* flex-basis: 100% - if you want to have it vertical aligned */
+    }
+}
+.before {
+    margin: 50px 0;
+}
+.owl-thumb-item {
+    width: 130px;
+}
+.owl-thumbs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

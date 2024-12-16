@@ -1,0 +1,8 @@
+[03-Sep-2024 00:47:52 UTC] PHP Warning:  Undefined variable $bannerHeading in /home/docsitedemos/public_html/x-premier24/client/data.php on line 23
+[03-Sep-2024 00:47:52 UTC] PHP Warning:  include(../inc/new-patients.php): Failed to open stream: No such file or directory in /home/docsitedemos/public_html/x-premier24/faq/index.php on line 8
+[03-Sep-2024 00:47:52 UTC] PHP Warning:  include(): Failed opening '../inc/new-patients.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/docsitedemos/public_html/x-premier24/faq/index.php on line 8
+[03-Sep-2024 00:47:52 UTC] PHP Warning:  Undefined variable $offers in /home/docsitedemos/public_html/x-premier24/inc/promos-highlights.php on line 2
+[14-Sep-2024 07:00:17 UTC] PHP Warning:  Undefined variable $bannerHeading in /home/docsitedemos/public_html/x-premier24/client/data.php on line 23
+[14-Sep-2024 07:00:17 UTC] PHP Warning:  include(../inc/new-patients.php): Failed to open stream: No such file or directory in /home/docsitedemos/public_html/x-premier24/faq/index.php on line 8
+[14-Sep-2024 07:00:17 UTC] PHP Warning:  include(): Failed opening '../inc/new-patients.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/docsitedemos/public_html/x-premier24/faq/index.php on line 8
+[14-Sep-2024 07:00:17 UTC] PHP Warning:  Undefined variable $offers in /home/docsitedemos/public_html/x-premier24/inc/promos-highlights.php on line 2

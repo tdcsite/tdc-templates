@@ -1,0 +1,51 @@
+-----------------------------------------------
+------------ INSTRUCTIONS ---------------------
+
+  1) Copy / Paste the folder "before-after" into your site root directory.
+
+
+  2) copy / paste these lines in the 'resources.php' file AFTER functions.js
+
+  <!--- COPY FROM HERE ------------------------------------------------------------------------- !>
+	<link rel="stylesheet" href="<?php echo $baseurl ?>before-after/css/owl.carousel.css" />
+	<link rel="stylesheet" href="<?php echo $baseurl ?>before-after/css/owl.theme.default.css" />
+    <link rel="stylesheet" href="<?php echo $baseurl ?>before-after/css/custom.css" />
+    <script src="<?php echo $baseurl ?>before-after/js/owl.carousel.js"></script>
+    <script src="<?php echo $baseurl ?>before-after/js/owl.carousel2.thumbs.min.js"></script>
+      <script type="text/javascript">
+	         var owl = $('.owl-carousel');
+                owl.owlCarousel({
+                    items:1,
+	                loop:true,
+	                mouseDrag: false,
+                    autoplay:true,
+	                autoplayTimeout:1000,
+                    nav: false,
+                    dots: false,
+                    touchDrag: false,
+                    thumbs: false,
+                    thumbImage: true,
+                    thumbContainerClass: 'owl-thumbs',
+                    thumbItemClass: 'owl-thumb-item'
+                });
+	</script>
+  <!--- STOP COPY HERE ------------------------------------------------------------------------- !>
+
+   3) Copy / Paste this php include into the page you want the gallery to show up (e.g website.com/gallery/index.php):
+
+   <!--- COPY FROM HERE ------------------------------------------------------------------------- !>    
+     <?php include ($_SERVER[DOCUMENT_ROOT] . '/before-after/before-after.php'); ?>
+   <!--- STOP COPY HERE ------------------------------------------------------------------------- !>
+
+   4) Replace the images in folder "images" with pictures provided by client. 
+
+   5) Customize gallery if necessary: adjust CSS or gallery settings (ex: if you want to have the gallery rotate automatically, go to the pasted script "owl-carousel" from above and change 'autoplay' from 'false' to 'true'). More information on customization here: https://owlcarousel2.github.io/OwlCarousel2/docs/started-welcome.html
+
+   
+-----------------------------------------------
+
+
+
+
+
+

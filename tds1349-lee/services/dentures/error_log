@@ -1,0 +1,20 @@
+[22-Jul-2021 21:09:27 UTC] PHP Warning:  include(list.php): failed to open stream: No such file or directory in /home/docsitedemos/public_html/z-premier2021/inc/header.php on line 90
+[22-Jul-2021 21:09:27 UTC] PHP Warning:  include(): Failed opening 'list.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/docsitedemos/public_html/z-premier2021/inc/header.php on line 90
+[17-Sep-2024 22:19:17 UTC] PHP Warning:  Undefined variable $bannerHeading in /home/docsitedemos/public_html/x-premier24/client/data.php on line 23
+[17-Sep-2024 22:19:17 UTC] PHP Warning:  Undefined variable $offers in /home/docsitedemos/public_html/x-premier24/inc/promos-highlights.php on line 2
+[17-Sep-2024 22:19:28 UTC] PHP Warning:  Undefined variable $bannerHeading in /home/docsitedemos/public_html/x-premier24/client/data.php on line 23
+[17-Sep-2024 22:19:28 UTC] PHP Warning:  Undefined variable $offers in /home/docsitedemos/public_html/x-premier24/inc/promos-highlights.php on line 2
+[19-Sep-2024 19:24:20 UTC] PHP Warning:  Undefined variable $bannerHeading in /home/docsitedemos/public_html/x-premier24/client/data.php on line 23
+[19-Sep-2024 19:24:20 UTC] PHP Warning:  Undefined variable $offers in /home/docsitedemos/public_html/x-premier24/inc/promos-highlights.php on line 2
+[11-Oct-2024 10:06:55 UTC] PHP Warning:  Undefined variable $bannerHeading in /home/docsitedemos/public_html/x-premier24/client/data.php on line 23
+[11-Oct-2024 10:06:55 UTC] PHP Warning:  Undefined variable $offers in /home/docsitedemos/public_html/x-premier24/inc/promos-highlights.php on line 2
+[31-Oct-2024 16:38:45 UTC] PHP Warning:  Undefined variable $bannerHeading in /home/docsitedemos/public_html/x-premier24/client/data.php on line 23
+[31-Oct-2024 16:38:45 UTC] PHP Warning:  Undefined variable $offers in /home/docsitedemos/public_html/x-premier24/inc/promos-highlights.php on line 2
+[06-Nov-2024 16:02:36 UTC] PHP Warning:  Undefined variable $bannerHeading in /home/docsitedemos/public_html/devs2024/tds1349-lee/client/data.php on line 23
+[06-Nov-2024 16:02:36 UTC] PHP Warning:  Undefined variable $offers in /home/docsitedemos/public_html/devs2024/tds1349-lee/inc/promos-highlights.php on line 2
+[07-Nov-2024 09:56:47 UTC] PHP Warning:  Undefined variable $bannerHeading in /home/docsitedemos/public_html/devs2024/tds1349-lee/client/data.php on line 23
+[07-Nov-2024 09:56:47 UTC] PHP Warning:  Undefined variable $offers in /home/docsitedemos/public_html/devs2024/tds1349-lee/inc/promos-highlights.php on line 2
+[08-Nov-2024 09:37:22 UTC] PHP Warning:  Undefined variable $bannerHeading in /home/docsitedemos/public_html/devs2024/tds1349-lee/client/data.php on line 24
+[08-Nov-2024 09:37:22 UTC] PHP Warning:  Undefined variable $offers in /home/docsitedemos/public_html/devs2024/tds1349-lee/inc/promos-highlights.php on line 2
+[15-Nov-2024 14:51:58 UTC] PHP Warning:  Undefined variable $bannerHeading in /home/docsitedemos/public_html/devs2024/tds1349-lee/client/data.php on line 24
+[15-Nov-2024 14:51:58 UTC] PHP Warning:  Undefined variable $offers in /home/docsitedemos/public_html/devs2024/tds1349-lee/inc/promos-highlights.php on line 2
